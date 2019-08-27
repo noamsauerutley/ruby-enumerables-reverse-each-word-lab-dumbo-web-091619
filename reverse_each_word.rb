@@ -1,3 +1,3 @@
 def reverse_each_word(array)
-array.map{|word| word.reverse}
+array.map!{|word| word.reverse}
 end
